@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Formulario de ejemplo</legend>
+                <label for="txtText">Input text: </label>
+                <input type="text" id="txtText">
+                <br>
+                <label for="cbxMeses">Drop down: </label>
+                <select id="cbxMeses" name="Mes">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto" selected>Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+                </select>
+                <br>
+                <label for="txtArea">Text area: </label>
+                <textarea id="txtArea" cols="30" rows="10">
+                    Text area
+                </textarea>
+                <br>
+                <button type="button" onclick="alert('Hello world')">Click me!</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
